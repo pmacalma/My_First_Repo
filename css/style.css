@@ -6,21 +6,25 @@ body {
 }
 
 .hero {
+    padding-top: 5px;
+    margin: 0;
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(193, 216, 250, 0.75), rgba(159, 185, 224, 0.9)), url(../UXUI_HW17/images/Illustration_7_BW.png);
+    background-image: linear-gradient(rgba(193, 216, 250, 0.75), rgba(159, 185, 224, 0.9)), url(../UXUI_HW18/images/Illustration_7_BW.png);
     background-size: cover;
     background-position: center;
     justify-content: space-between;
+    position: relative;
+    /* outline:red 1px solid; */
     }
 
 .navBar {
     display: flex;
     align-items: center;
+    background-image: linear-gradient(rgba(193, 216, 250, 0.75), rgba(159, 185, 224, 0.9)), url(../UXUI_HW18/images/Illustration_7_BW.png);
+    background-size: cover;
     justify-content: space-between;
-    padding-top: 40px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 40px 10% 40px 10%;
 }
 
 .logo {
@@ -66,7 +70,7 @@ h1 {
 }
 
 .heroImg {
-    height: 90%;
+    height: 100%;
     position: absolute;
     bottom: 0;
     right: 150px;
@@ -79,20 +83,40 @@ span {
 
 .process { 
     display: flex;
+    flex-direction: column;
+    margin: 100px;
+    align-items: left;
+    /* outline: 2px solid red; */
+}
+
+.mySkillsTitle {
+    text-align: left;
+    font-size: 75px;
+    color: rgba(26, 76, 145, 0.9);
+    padding-left: 125px;
+}
+
+.mySkillsText {
+    font-size: 20px;
+}
+
+.processItems {
+    display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 100px;
 }
 
-h2 {
+.mySkills {
     font-size: 50px;
     text-align: center;
+    color: rgba(26, 76, 145, 0.9);
 }
 
 .researchContainer {
     align-items: center;
     justify-content: center;
-    padding-left: 50px;
+    padding-left: 25px;
 }
 
 .research {
@@ -102,7 +126,7 @@ h2 {
 .defineContainer {
     align-items: center;
     justify-content: center;
-    padding-left: 50px;
+    padding-left: 25px;
 }
 
 .define {
@@ -112,7 +136,7 @@ h2 {
 .ideateContainer {
     align-items: center;
     justify-content: center;
-    padding: 50px;
+    padding: 25px;
 }
 
 .ideate {
@@ -122,7 +146,7 @@ h2 {
 .prototypeContainer {
     align-items: center;
     justify-content: center;
-    padding: 50px;
+    padding: 25px;
 }
 
 .prototype {
@@ -132,7 +156,7 @@ h2 {
 .testContainer {
     align-items: center;
     justify-content: center;
-    padding: 50px;
+    padding: 25px;
 }
 
 .test {
@@ -170,6 +194,12 @@ h2 {
     cursor: pointer;
 }
 
+.btnBlue:hover {
+    background-color: rgba(26, 76, 145, 0.8);
+    color: white;
+    outline: rgba(26, 76, 145, 0.8) 1px solid;
+}
+
 .btnWhite {
     background-color: white;
     color: rgba(26, 76, 145, 0.9);
@@ -178,6 +208,12 @@ h2 {
     font-size: 24px;
     border-radius: 8px;
     cursor: pointer;
+}
+
+.btnWhite:hover {
+    background-color: rgb(225, 225, 225);
+    color: rgba(26, 76, 145, 1);
+    outline: white 1px solid;
 }
 
 .project2 { 
@@ -240,23 +276,24 @@ h2 {
 
 .footer {
     background-color:rgba(26, 76, 145, 0.9);
-    padding-left: 200px;
-    padding: 50px;
     margin: 0;
-    display: inline-block;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .fb_logo {
-    height: 60px;
+    height: 40px;
+    padding: 40px;
 }
 
 .ig_logo {
-    height: 60px;
+    height: 40px;
+    padding: 40px;
 }
 
 .li_logo {
-    height: 60px;
+    height: 40px;
+    padding: 40px;
 }
+
