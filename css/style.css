@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -10,7 +14,7 @@ body {
     margin: 0;
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(193, 216, 250, 0.75), rgba(159, 185, 224, 0.9)), url(../UXUI_HW18/images/Illustration_7_BW.png);
+    background-image: linear-gradient(rgba(152, 193, 217, .85), rgba(152, 193, 217, 1)), url(../images/Illustration_7_WB.png);
     background-size: cover;
     background-position: center;
     justify-content: space-between;
@@ -21,7 +25,6 @@ body {
 .navBar {
     display: flex;
     align-items: center;
-    background-image: linear-gradient(rgba(193, 216, 250, 0.75), rgba(159, 185, 224, 0.9)), url(../UXUI_HW18/images/Illustration_7_BW.png);
     background-size: cover;
     justify-content: space-between;
     padding: 40px 10% 40px 10%;
@@ -45,10 +48,11 @@ body {
     text-decoration: none;
     font-weight: bold;
     font-size: 30px;
+    cursor: pointer;
 }
 
 .navBar ul li a:hover {
-    color:rgb(255, 255, 255)
+    color:rgb(255, 255, 255);
 }
 
 .text {
@@ -79,6 +83,15 @@ h1 {
 
 span {
     color:rgba(26, 76, 145, 0.9);
+}
+
+.scroll-down-btn {
+    text-decoration: none;
+}
+
+.viewPort {
+    text-decoration: none;
+    color: white;
 }
 
 .process { 
@@ -164,7 +177,7 @@ span {
     color: rgba(26, 76, 145, 0.9);
 }
 
-.project1 { 
+#project1 { 
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -184,36 +197,21 @@ span {
     color: white;
 }
 
-.btnBlue {
-    background-color: rgba(26, 76, 145, 0.9);
+.btnOrange {
+    background-color: #EA360B;
     color: white;
-    padding: 15px 32px;
+    padding: 12px 12px;
     text-align: center;
     font-size: 24px;
+    border: none;
     border-radius: 8px;
     cursor: pointer;
+    outline: none;
 }
 
-.btnBlue:hover {
-    background-color: rgba(26, 76, 145, 0.8);
+.btnOrange:hover {
+    background-color: #EE6C4D;
     color: white;
-    outline: rgba(26, 76, 145, 0.8) 1px solid;
-}
-
-.btnWhite {
-    background-color: white;
-    color: rgba(26, 76, 145, 0.9);
-    padding: 15px 32px;
-    text-align: center;
-    font-size: 24px;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-.btnWhite:hover {
-    background-color: rgb(225, 225, 225);
-    color: rgba(26, 76, 145, 1);
-    outline: white 1px solid;
 }
 
 .project2 { 
@@ -250,7 +248,7 @@ span {
 .projectText3 {
     width: 40%;
     margin-right: 200px;
-    padding: 25px 10px 25px 10px;
+    padding: 50px;
     line-height: 52px; 
     color: white;
 }
