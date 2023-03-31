@@ -1,0 +1,88 @@
+
+.hero {
+background-color: #2A8AC7;    
+}
+
+.cosText {
+color: #2A8AC7;
+padding: 50px;
+}
+
+.logo {
+    height: 100px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.media-body {
+    margin: auto;
+    width: 50%;
+}
+
+.media {
+    background-color: #2A8AC7;
+    color: white;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+.cosText {
+    padding-left: 50px;
+}
+
+h2 {
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+p {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 36px;
+    margin-left: 50px;
+}
+
+.introText {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: px;
+}
+
+ul li {
+    font-size: 24px;
+    text-align: left;
+    padding-left: 25px;
+    margin-left: 50px;
+}
+
+img {
+    padding: 50px;
+}
+
+.footer {
+    background-color:#2A8AC7;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fb_logo {
+    height: 40px;
+    padding: 40px;
+}
+
+.ig_logo {
+    height: 40px;
+    padding: 40px;
+}
+
+.li_logo {
+    height: 40px;
+    padding: 40px;
+}
